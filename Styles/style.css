@@ -189,3 +189,64 @@ sup {
     padding-top: 100px;
 }
 
+.article-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    padding: 50px 30px;
+    line-height: 1.4;
+}
+
+.article-one:hover {
+    cursor: pointer;
+}
+
+.article-one h3 {
+    font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+    color: #666;
+    display: block;
+    margin-bottom: 7px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.article-one h2 {
+    font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+    color: rgb(12, 12, 12);
+    display: block;
+    margin-bottom: 7px;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.article-one h2:hover {
+    color: rgb(211, 24, 24);
+}
+
+.article-one span {
+    color: #666;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+}
+
+.article-one a {
+    color: #666;
+}
+
+.article-one a:hover {
+    color: black;
+}
+
+.article-one p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(46, 44, 44);
+}
+
+.arrow-2 {
+    color: rgb(211, 9, 9);
+    display: block;
+    padding-top: 100px;
+}
