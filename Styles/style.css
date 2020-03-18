@@ -35,3 +35,53 @@
     padding: 8px 16px; 
     margin-top: 40px;
 }
+
+
+.first-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+    
+.first-section img {
+    width: 75px;
+    height: 75px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.ball {
+    width: 75px;
+    height: 75px;
+}
+
+.author1 { 
+    background-color: #861409;
+    padding: 50px 30px;
+}
+
+.author2 {
+    background-color: #e03829;
+    padding: 50px 30px;
+}
+.author3 {
+    background-color: #6d0c03;
+    padding: 50px 30px;
+}
+.author4 {
+    background-color: #af1b0d;
+    padding: 50px 30px;
+}
+
+.author-info {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 400px;
+}
+.name {
+    padding-top: 20px;
+    display: block;
+    padding-left: 30px;
+}
+.author-info em {
+    display: inline-flexbox;
+}
