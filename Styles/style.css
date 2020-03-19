@@ -479,3 +479,83 @@ sup {
 .latest-articles:hover {
     color: red;
 }
+
+.shipping {
+  width: 100%;
+  background-color: #7ab99a;
+  line-height: 0.7;
+}
+
+.shipping span {
+font-size: larger;
+padding-left: 40%;
+color: white;
+text-transform: uppercase;
+padding: 10px 0;
+}
+
+.design {
+  color: white;
+  padding-left: 30%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.design a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 5px solid rgb(133, 130, 130);
+}
+
+.design2 {
+  font-size: 48px;
+  padding-left: 350px;
+  font-weight: bold;
+}
+
+.shipping-paragraph p {
+  /* padding-left: 100px; */
+  text-align: center;
+  font-size: x-large;
+  line-height: 1.2;
+  margin-top: 45px;
+}
+
+.shipping-text {
+  padding: 40px 0 10px 520px;
+}
+
+.shipping-text small {
+  font-size: small;
+}
+
+.shipping-btn {
+  background-color: white;
+  width: 300px;
+  height: 60px;
+  font-size: 22px;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-left: 15px;
+  margin-left: 500px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.shipping-btn a {
+  text-decoration: none;
+}
+
+.shipping-btn a:hover {
+  color: #b91b0d;
+}
+
+.dark {
+  color: #fff;
+}
+
+.bk-image {
+padding-left: 20%;
+}
+
