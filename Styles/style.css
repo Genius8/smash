@@ -221,3 +221,45 @@ sup {
     background-color: #cebebc;
     padding: 50px 30px;
 }
+
+.article-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    line-height: 30px;
+}
+.sign-up {
+    background-color: #680505;
+    padding: 145px 30px  50px 30px;
+}
+
+.art-4 {
+    background-color: #cebebc;
+    padding: 50px 30px;
+}
+
+.art-5 {
+    background-color: #dda29b;
+    padding: 50px 30px;
+}
+
+.article-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    line-height: 30px;
+}
+.art-6 {
+    background-color: #f57777;
+    padding: 145px 30px  50px 30px;
+}
+
+.art-7 {
+    background-color: #c55d48;
+    padding: 50px 30px;
+}
+
+.art-9 {
+    background-color: #5a3f3c;
+    padding: 50px 30px;
+}
