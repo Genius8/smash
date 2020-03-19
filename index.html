@@ -104,17 +104,18 @@
             </div>
         </nav>
     </header>
-    <h1 class="article">
-        <span class="latest">
-            Don't Miss These Latest
-        </span>
-        <br/>
-        <span class="latest">
-            Articles
-        </span>
-    </h1>
-
     <main>
+        <div class="page-title">
+            <div class="latest">
+                <span>
+                    Don't Miss These Latest
+                </span>
+                <br/>
+                <span>
+                    Articles
+                </span>
+            </div>
+        </div>
         <section class="first-section">
         <div class="author1">
                 <div class="author-info">
@@ -145,7 +146,7 @@
                 <span class="topics"> Testing <sup>49</sup> </span>
                 <span class="topics"> Tools <sup>201</sup> </span>
             </div>
-                <i class="arrow"> →</i>
+                <i class="arrow-left"> →</i>
         </div>
         <div class="author2">
             <div class="seriously">
@@ -186,7 +187,7 @@
             <span class="topics"> Conferences <sup>24</sup> </span>
             <span class="topics"> Events <sup>83</sup> </span>
         </div>
-            <i class="arrow"> →</i>
+            <i class="arrow-right"> →</i>
             </div>
                 <div class="author3">
                     <div class="author-info">
@@ -215,7 +216,7 @@
                     <span class="topics"> React <sup>28</sup> </span>
                     <span class="topics"> Performance <sup>118</sup> </span>
                 </div>
-                    <i class="arrow"> →</i>
+                    <i class="arrow-left"> →</i>
             </div>
                     <div class="author4">
                         <div class="author-info">
@@ -224,7 +225,7 @@
                             </div>
                         <div class="name">
                             <h3>
-                                Chidi Orji
+                                <a href="#">Iris Lješnjanin</a>
                                 <em>wrote</em>
                             </h3>
                         </div>
@@ -240,7 +241,7 @@
                     <div>
                         <span class="topics">Smashing Monthly Roundup<sup>6</sup> </span>
                     </div>
-                        <i class="arrow"> →</i>
+                        <i class="arrow-right"> →</i>
                 </div>
         </section>
         <article class="article-one">
@@ -252,16 +253,14 @@
                     Accessible SVGs: Inclusiveness Beyond Patterns
                 </h2>
                 <span>
-                    by Carie Fisher
+                    by <a href="#">Carie Fisher</a>
                 </span>
                 <p>
                     We are fortunate to have robust patterns to choose from when optimizing accessibility
                     in SVGs — but most people stop there, focusing on code compliance and not actual users 
                     and their needs. If true inclusiveness lies beyond patterns — …
                 </p>
-                <div>
-                    <i> →</i>
-                </div>
+                <i class="arrow-1 arrows"> →</i>
             </div>
             <div class="art-two">
                 <h3>
@@ -271,16 +270,17 @@
                     Creating Secure Password Flows With NodeJS And MySQL 
                 </h2>
                 <span>
-                    by Darshan Somashekar
+                    by <a href="#">Darshan Somashekar</a>
                 </span>
                 <p>
                     With the help of using NodeJS and MySQL, learn how to 
                     successfully create a secure reset password flow so you 
                     can avoid these pitfalls. 
+                    With the help of using NodeJS and MySQL, learn how to 
+                    successfully create a secure reset password flow so you 
+                    can avoid these pitfalls. 
                 </p>
-                <div>
-                    <i> →</i>
-                </div>
+                <i class="arrow-2 arrows"> →</i>
             </div>
             <div class="art-three">
                 <h3>
@@ -290,7 +290,7 @@
                     Building An E-Commerce Site With October CMS And Shopaholic  
                 </h2>
                 <span>
-                    by Leonardo Losoviz
+                    by <a href="#">Leonardo Losoviz</a>
                 </span>
                 <p>
                     The Laravel-powered October CMS enables to extend the functionality 
@@ -298,28 +298,26 @@
                     learn how to create an e-commerce site through one of October’s most 
                     popular plugins, Shopaholic. 
                 </p>
-                <div>
-                    <i> →</i>
-                </div>
+                <i class="arrow-3 arrows"> →</i>
             </div>
         </article>
         <article class="article-two">
-            <div class="sign-up">
-                <div class="">
+            <div class="smashing-members">
+                <div>
                     <img src="https://d33wubrfki0l68.cloudfront.net/aea2faf51cc69a1e10bb434aa92f7c3821f16787/e4922/images/smashing-cat/singing-barista.svg" 
                     loading="lazy" class="" width="258" height="290" alt="Smashing Members"> 
                 </div>
                 <h2>
-                    <a href="#">1,651 Smashing Members</a>
+                    <a href="#" class="smashing-link">1,651 smashing members</a>
                 </h2>
-                <p>
+                <p class="smashing-paragraph">
                     A friendly community that keeps this website alive. With books, webinars, discounts 
                     and networking — for just 1 coffee a month. <a href="#">Join the family.</a>
                 </p>
-                <button>
+                <div class="explore-btn button">
                     <a href="#" class="">Explore features →</a>
-                </button>
-                <small>
+                </div>
+                <small class="account">
                     Already have an account? <a href="#">Sign in!</a>
                 </small>
             </div>
@@ -327,100 +325,100 @@
                 <h3>
                     7 DAYS AGO
                 </h3>
-                <h2>
+                <h2 class="smashing-h2">
                     Smashing Podcast Episode 11 With Eduardo Bouças: What Is Sourcebit? 
                 </h2>
                 <span>
-                    by Drew McLellan
+                    by <a href="#" class="article-author">Drew McLellan</a>
                 </span>
-                <p>
+                <p class="article-paragraph">
                     In this episode of the Smashing Podcast we’re talking about an interesting open-source tool called Sourcebit. 
                     How can it help our content workflow with JAMstack sites? Drew McLellan speaks to developer Eduardo Bouças to find out. 
                 </p>
                 <div>
-                    <i> →</i>
+                    <i class="arrow-4 arrows"> →</i>
                 </div>
             </div>
             <div class="art-5">
                 <h3>
                     8 DAYS AGO
                 </h3>
-                <h2>
+                <h2 class="smashing-h2">
                     Setting Height And Width On Images Is Important Again 
                 </h2>
                 <span>
-                    by Barry Pollard
+                    by <a href="#" class="article-author">Barry Pollard</a>
                 </span>
-                <p>
+                <p class="article-paragraph">
                     Thanks to some recent changes in browsers, it’s now well worth setting <code>width</code> and  <code>height</code>
                     attributes on your images to prevent layout shifts and improve the experience of your site visitors.
                 </p>
                 <div>
-                    <i> →</i>
+                    <i class="arrow-5 arrows"> →</i>
                 </div>
             </div>
         </article>
         <article class="article-three">
-            <div class="art-6">
+            <div>
                 <h3>
                     11 DAYS AGO
                 </h3>
-                <h2>
+                <h2 class="smashing-h2">
                     Avoid Keyboard Event-Related Bugs In Browser-Based Transliteration  
                 </h2>
                 <span>
-                    by Sandamal Siripathi
+                    by <a href="#" class="article-author">Sandamal Siripathi</a>
                 </span>
-                <p>
+                <p class="article-paragraph">
                     Transliteration is a popular way to input non-English characters using an English keyboard. This article explains a new 
                     method to eliminate such browser-related problems when developing web apps that use transliteration. 
                 </p>
                 <div>
-                    <i> →</i>
+                    <i class="arrow-5 arrows"> →</i>
                 </div>
             </div>
             <div class="art-7">
                 <h3>
                     12 DAYS AGO
                 </h3>
-                <h2>
+                <h2 class="smashing-h2">
                     Introducing Alpine.js: A Tiny JavaScript Framework   
                 </h2>
                 <span>
-                    by Phil Smith
+                    by <a href="#" class="article-author">Phil Smith</a>
                 </span>
-                <p>
+                <p class="article-paragraph">
                     Ever built a website and reached for jQuery, Bootstrap, Vue.js or React to acheive some basic user interaction? Alpine.js is 
                     a fraction of the size of these frameworks because it involves no build steps and provides all of the tools you need to build …  
                 </p>
                 <div>
-                    <i> →</i>
+                    <i class="arrow-6 arrows"> →</i>
                 </div>
             </div>
-            <div class="art-9">
+            <div class="smashing-members">
                 <div>
                     <img src="https://d33wubrfki0l68.cloudfront.net/72280e1450d4ecfc45ef96ea00b27b4bf4ef5d06/eb759/images/smashing-cat/cat-smashing-tv-2.svg" 
                     loading="lazy" class="" width="258" height="290" alt="New On Smashing">  
                 </div>
                 <h2>
-                    <a href="#">New on Smashing TV</a>
+                    <a href="#" class="smashing-link">New on Smashing TV</a>
                 </h2>
-                <p>
+                <p class="smashing-paragraph">
                     A channel where seasoned developers show how they design, build, work and play. Coming up next: 
                     <a href="#">Building A Modern Electron App With React Hooks</a>  with Cassidy Williams (Mar 19).
                 </p>
-                <button>
+                <div class="explore-btn2 button">
                     <a href="#"class="">See all upcoming episodes →</a> 
-                </button>
-                <small>
+                </div>
+                <small class="account">
                     Already have an account? <a href="#">Sign in!</a>
                 </small>
             </div>
         </article>
     </main>
     <section>
-        <div>
-            <a href="#">SEE ALL LATEST ARTICLES</a>
+        <div class="latest-container">
+            <a href="#" class="latest-articles">SEE ALL THE LATEST ARTICLES<i>→</i></a>
         </div>
         <div>
             <span>
