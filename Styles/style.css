@@ -38,16 +38,12 @@
 
 .article {
     line-height: 1.8em;
-    font-size: 1.7em;
-    display: inline-block;
-
+    font-size: 1.9em;
 }
 
 .article .latest {
     padding: 0.3em;
-    /* box-shadow: 0.2em 0 0 rgba(#fff,0.7), -0.2em 0 0 rgba(#fff,0.7); */
     background-color: #fff;
-    /* background-color: rgba(#fff,0.7); */
     position: absolute;
 }
 
@@ -204,3 +200,24 @@ sup {
     padding-top: 100px;
 }
 
+.article-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    line-height: 30px;
+}
+
+.article-one .art-one{
+    background-color: #726d6d;
+    padding: 145px 30px  50px 30px;
+}
+
+.article-one .art-two{
+    background-color: #928584;
+    padding: 50px 30px;
+}
+
+.article-one .art-three{
+    background-color: #cebebc;
+    padding: 50px 30px;
+}
