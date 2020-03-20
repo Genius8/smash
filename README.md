@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/apple-web-page/a7f5ebc697bdabdde171768b9537255602df459c/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Genius8/smash/0ba8124500c4b3cd4fd7eda1aa7167e2b572f239/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
@@ -39,7 +39,7 @@
 - Twitter: [@twitterhandle](https://twitter.com/jamezjaz90)
 - Linkedin: [@linkedin](https://linkedin.com/in/james-odufu-ba2a4a125)
 
-### Author 1
+### Author 2
 - Github: [@githubhandle](https://github.com/Genius8)
 
 
