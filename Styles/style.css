@@ -757,7 +757,7 @@ padding-left: 20%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 10px;
-  margin:0 70px 100px 70px;
+  margin:0 70px 150px 70px;
 }
 
 .smashing-news {
@@ -816,6 +816,7 @@ padding-left: 20%;
 
 form span {
   cursor: pointer;
+  color: rgb(36, 35, 35);
 }
 
 .form-email {
@@ -826,4 +827,41 @@ form span {
 .sub-small {
   color: #fff;
   text-align: center;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 35px;
+}
+
+.sub-small a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(175, 167, 167);
+}
+
+footer {
+  background-color: #D33A2C;
+}
+
+.footer-heading {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footer-main-ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 5px;
+  font-size: x-large;
+  text-align: center;
+  margin: 50px 0;
+  line-height: 1.5;
+}
+
+.main-ul li {
+  display: inline;
+}
+
+.main-ul li::before {
+  content: "\2022";
+  color: #580c06;
 }
