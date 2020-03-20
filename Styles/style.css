@@ -753,4 +753,46 @@ padding-left: 20%;
   line-height: 1.5;
 }
 
+.news-letter {
+  display: block;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(202, 179, 179);
+  line-height: 1.2;
+  background-color: #d33a2c;
+  width: 60%;
+}
 
+.news-letter a {
+  color: white;
+  padding-left: 140px;
+}
+.news-letter p {
+  color: white;
+  font-size: 17px;
+  line-height: 2;
+  text-align: center;
+}
+
+.news-image {
+  width: 400px;
+  height: 400px;
+  margin-left: 190px;
+}
+
+.email {
+  font-size: medium;
+}
+
+.form {
+  font-size: medium;
+}
+.form-extra {
+  color: #267dcc;
+}
+
+.form-email {
+
+}
