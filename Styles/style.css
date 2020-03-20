@@ -4,7 +4,7 @@
   grid-column-gap: 30px;
   background: #d33a2c;
   padding: 20px;
-  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: Calibri Bold, AvenirNext, Avenir,-apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: #fff;
   text-align: center;
 }
@@ -25,7 +25,7 @@
 
 .nav-item img:hover {
   transform: scale(1) rotate(3deg);
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
   transform-origin: bottom;
 }
 
@@ -59,7 +59,7 @@
   font-weight: bolder;
 }
 
-.page-title  span {
+.page-title span {
   background-color: white;
 }
 
@@ -106,7 +106,7 @@
 .ball:hover {
   cursor: pointer;
   transform: scale(1) rotate(1deg);
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
   transform-origin: bottom;
 }
 
@@ -122,18 +122,18 @@
   line-height: 40px;
 }
 
-.first-section a{
+.first-section a {
   text-decoration: none;
   color: white;
 }
 
-.author1 { 
+.author1 {
   background-color: #861409;
   padding: 145px 30px 50px 30px;
 }
 
 .author2 {
-  background-color: #b91b0d;
+  background-color: #b91b0d; 
   padding: 50px 30px;
 }
 
@@ -158,14 +158,16 @@
 
 .author-info img:hover {
   transform: scale(1) rotate(10deg);
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
   transform-origin: bottom;
-} 
+}
+
 
 .name {
   padding-top: 20px;
   padding-left: 30px;
 }
+
 
 .author-info h3 {
   font-size: 20px;
@@ -214,7 +216,7 @@
 
 .topics {
   font-size: 14px;
-  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   font-weight: bold;
 }
 
@@ -280,7 +282,7 @@ sup {
   color: #666;
   font-weight: 700;
   font-size: 16px;
-  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
 .article-one a {
@@ -337,7 +339,7 @@ sup {
   color: #666;
   font-weight: 700;
   font-size: 16px;
-  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
 .article-author {
@@ -465,11 +467,11 @@ sup {
   color: #666;
   font-weight: 700;
   font-size: 16px;
-  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
 .article-three h3 {
-  font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: #666;
   display: block;
   margin-bottom: 7px;
@@ -566,7 +568,7 @@ sup {
 }
 
 .book-image {
-padding-left: 20%;
+  padding-left: 20%;
 }
 
 .article-four {
@@ -589,7 +591,7 @@ padding-left: 20%;
 
 .person-week img:hover {
   transform: scale(1) rotate(1deg);
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
   transform-origin: bottom;
 }
 
@@ -606,7 +608,7 @@ padding-left: 20%;
 }
 
 .person-week a {
-  color:  #006fc6;
+  color: #006fc6;
 }
 
 .link-authors {
@@ -630,13 +632,13 @@ padding-left: 20%;
 
 .author img:hover {
   transform: scale(1) rotate(1deg);
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
   transform-origin: bottom;
 }
 
 .author-text {
   margin-left: 50px;
-  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
 .author-span {
@@ -767,7 +769,7 @@ padding-left: 20%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 10px;
-  margin:0 70px 150px 70px;
+  margin: 0 70px 150px 70px;
 }
 
 .smashing-news {
@@ -849,7 +851,7 @@ form span {
 }
 
 footer {
-  background-color: #D33A2C;
+  background-color: #D33a2c;
   text-align: center;
   color: white;
 }
