@@ -34,10 +34,35 @@
   transform: scale(1) rotateZ(calc(12 * -1deg));
 }
 
+.person-week img {
+  border: 8px solid rgb(151, 10, 10);
+  border-radius: 10px;
+  transform: scale(1) rotateZ(calc(10 * -1deg));
+}
+
+.author img {
+  width: 65px;
+  height: 65px;
+  border: 5px solid rgb(150, 6, 6);
+  border-radius: 8px;
+  transform: scale(1) rotateZ(calc(12 * -1deg));
+}
+
+.table-content img {
+  width: 256px;
+  height: 373px;
+  transform: scale(1) rotateZ(calc(12 * -1deg));
+}
+
 .nav-item img:hover {
   transform: scale(1) rotate(3deg);
   transition: transform 0.3s ease-out;
   transform-origin: bottom;
+}
+
+form span {
+  cursor: pointer;
+  color: rgb(36, 35, 35);
 }
 
 .nav-bar span {
@@ -96,6 +121,10 @@
   font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
+footer a {
+  color: white;
+}
+
 .smashing-paragraph a {
   text-decoration: none;
   color: whitesmoke;
@@ -117,6 +146,36 @@
   font-size: 18px;
   font-weight: bold;
   margin-left: 10px;
+}
+
+.article-three span {
+  color: #666;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+.shipping span {
+  font-size: larger;
+  padding-left: 40%;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.table-content span {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content-paragraph span {
+  color: white;
+  text-transform: lowercase;
+}
+
+.subscribe span {
+  display: inline;
 }
 
 .seriously span:hover {
@@ -274,7 +333,7 @@ sup {
 }
 
 .article-one h3 {
-  font-family: AvenirNext,  Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, RobotoSlab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: #666;
   display: block;
   margin-bottom: 7px;
@@ -292,6 +351,12 @@ sup {
   text-decoration: underline;
 }
 
+.curated h2 {
+  font-size: 27px;
+  color: rgb(36, 35, 35);
+  padding-bottom: 15px;
+}
+
 .article-one h2:hover {
   color: rgb(211, 24, 24);
 }
@@ -305,8 +370,75 @@ sup {
   color: #666;
 }
 
+.account a {
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: 3px solid rgb(202, 179, 179);
+}
+
+.design a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 5px solid rgb(133, 130, 130);
+}
+
+.shipping-btn a {
+  text-decoration: none;
+}
+
+.person-week a {
+  color: #006fc6;
+}
+
+.content-h2 a {
+  font-size: 45px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(175, 165, 165);
+}
+
+.table-content-btn a {
+  color: #267dcc;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.list li a {
+  font-size: 26px;
+  color: #006fc6;
+  line-height: 1.5;
+}
+
+.news h2 a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(199, 194, 194);
+}
+
+.subscribe a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #006fc6;
+  font-weight: bold;
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
+
+.sub-small a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(175, 167, 167);
+}
+
 .article-one a:hover {
   color: black;
+}
+
+footer p {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .article-one p {
@@ -441,12 +573,6 @@ sup {
   color: whitesmoke;
 }
 
-.account a {
-  text-decoration: none;
-  color: whitesmoke;
-  border-bottom: 3px solid rgb(202, 179, 179);
-}
-
 .article-three {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -459,13 +585,6 @@ sup {
 .explore-btn2 {
   width: 85%;
   margin: 0 0 20px 35px;
-}
-
-.article-three span {
-  color: #666;
-  font-weight: 700;
-  font-size: 16px;
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
 .article-three h3 {
@@ -497,25 +616,11 @@ sup {
   line-height: 0.7;
 }
 
-.shipping span {
-  font-size: larger;
-  padding-left: 40%;
-  color: white;
-  text-transform: uppercase;
-  padding: 10px 0;
-}
-
 .design {
   color: white;
   padding-left: 30%;
   font-size: 50px;
   font-weight: bold;
-}
-
-.design a {
-  text-decoration: none;
-  color: white;
-  border-bottom: 5px solid rgb(133, 130, 130);
 }
 
 .design2 {
@@ -553,10 +658,6 @@ sup {
   font-weight: bold;
 }
 
-.shipping-btn a {
-  text-decoration: none;
-}
-
 .shipping-btn a:hover {
   color: #b91b0d;
 }
@@ -578,13 +679,7 @@ sup {
   grid-template-columns: 1fr 5fr;
   grid-column-gap: 50px;
   margin: 50px 60px;
-  font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
-}
-
-.person-week img {
-  border: 8px solid rgb(151, 10, 10);
-  border-radius: 10px;
-  transform: scale(1) rotateZ(calc(10 * -1deg));
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
 .person-week img:hover {
@@ -605,10 +700,6 @@ sup {
   line-height: 2;
 }
 
-.person-week a {
-  color: #006fc6;
-}
-
 .link-authors {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -618,14 +709,6 @@ sup {
 .author {
   display: flex;
   margin: 0 80px;
-}
-
-.author img {
-  width: 65px;
-  height: 65px;
-  border: 5px solid rgb(150, 6, 6);
-  border-radius: 8px;
-  transform: scale(1) rotateZ(calc(12 * -1deg));
 }
 
 .author img:hover {
@@ -642,10 +725,6 @@ sup {
 .author-span {
   font-weight: 700;
   font-size: 18px;
-  color: #666;
-}
-
-.author-span a {
   color: #666;
 }
 
@@ -680,26 +759,8 @@ sup {
   padding: 50px 80px;
 }
 
-.table-content span {
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.content-h2 a {
-  font-size: 45px;
-  color: white;
-  text-decoration: none;
-  border-bottom: 3px solid rgb(175, 165, 165);
-}
-
 .content-paragraph {
   font-size: 19px;
-}
-
-.content-paragraph span {
-  color: white;
-  text-transform: lowercase;
 }
 
 .table-content-btn {
@@ -710,21 +771,8 @@ sup {
   padding: 10px 0 0 40px;
 }
 
-.table-content-btn a {
-  color: #267dcc;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .table-content-btn a:hover {
   color: rgb(156, 9, 9);
-}
-
-.table-content img {
-  width: 256px;
-  height: 373px;
-  transform: scale(1) rotateZ(calc(12 * -1deg));
 }
 
 .table-content img:hover {
@@ -746,21 +794,9 @@ sup {
   margin-bottom: 10px;
 }
 
-.curated h2 {
-  font-size: 27px;
-  color: rgb(36, 35, 35);
-  padding-bottom: 15px;
-}
-
 .list {
   list-style-type: disc;
   color: #c5180c;
-}
-
-.list li a {
-  font-size: 26px;
-  color: #006fc6;
-  line-height: 1.5;
 }
 
 .newsletter {
@@ -782,13 +818,6 @@ sup {
   line-height: 2;
 }
 
-.news h2 a {
-  font-size: 40px;
-  color: white;
-  text-decoration: none;
-  border-bottom: 3px solid rgb(199, 194, 194);
-}
-
 .news p {
   font-size: 20px;
 }
@@ -803,30 +832,12 @@ sup {
   margin-left: 85px;
 }
 
-.subscribe span {
-  display: inline;
-}
-
-.subscribe a {
-  font-size: 20px;
-  text-decoration: none;
-  color: #006fc6;
-  font-weight: bold;
-  border-left: 1px solid grey;
-  padding-left: 20px;
-}
-
 .subscribe a:hover {
   color: rgb(175, 8, 8);
 }
 
 .subscribe-btn {
   margin: 0 0 15px 15px;
-}
-
-form span {
-  cursor: pointer;
-  color: rgb(36, 35, 35);
 }
 
 .form-email {
@@ -841,12 +852,6 @@ form span {
   margin-top: 35px;
 }
 
-.sub-small a {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid rgb(175, 167, 167);
-}
-
 footer {
   background-color: #d33a2c;
   text-align: center;
@@ -856,11 +861,6 @@ footer {
 .footer-heading {
   text-align: center;
   padding-top: 60px;
-}
-
-footer p {
-  font-size: 18px;
-  line-height: 1.5;
 }
 
 .footer-main-ul {
@@ -891,10 +891,6 @@ footer p {
 
 .footer-ul li {
   display: inline;
-}
-
-footer a {
-  color: white;
 }
 
 .footer-img {
