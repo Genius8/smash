@@ -327,10 +327,6 @@ sup {
   line-height: 1.4;
 }
 
-.article-one:hover {
-  /* cursor: pointer; */
-}
-
 .article-one h3 {
   font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, RobotoSlab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: #666;
