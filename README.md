@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Genius8/smash/0ba8124500c4b3cd4fd7eda1aa7167e2b572f239/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Genius8/smash/e8d0013915a7a07fdabfbb9834790f7f17197379/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
@@ -41,6 +41,7 @@
 
 ### Author 2
 - Github: [@githubhandle](https://github.com/Genius8)
+- Twitter: [@twitterhandle](https://twitter.com/erasmus_okiror)
 
 
 
