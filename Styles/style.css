@@ -418,6 +418,19 @@ sup {
   border-bottom: 1px solid rgb(175, 167, 167);
 }
 
+.smashing-h2 a {
+  color: rgb(49, 48, 48);
+}
+
+.article-paragraph a {
+  color: #333;
+  text-decoration: none;
+}
+
+.author-span a {
+  color: #666;
+}
+
 .list li a {
   font-size: 26px;
   color: #006fc6;
@@ -472,9 +485,6 @@ footer p {
   font-weight: 800;
   text-decoration: underline;
 }
-.smashing-h2 a {
-  color: rgb(49, 48, 48);
-}
 
 .smashing-h2:hover {
   color: rgb(211, 24, 24);
@@ -495,11 +505,6 @@ footer p {
 
 .article-paragraph {
   font-size: 22px;
-}
-
-.article-paragraph a {
-  color: #333;
-  text-decoration: none;
 }
 
 .arrows {
@@ -731,10 +736,6 @@ footer p {
 .author-span {
   font-weight: 700;
   font-size: 18px;
-  color: #666;
-}
-
-.author-span a {
   color: #666;
 }
 
