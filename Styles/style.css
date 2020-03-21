@@ -157,10 +157,10 @@ footer a {
 
 .shipping span {
   font-size: larger;
-  padding-left: 40%;
+  /* padding-left: 40%; */
   color: white;
   text-transform: uppercase;
-  padding: 10px 0;
+  padding: 2% 2% 2% 6%;
 }
 
 .table-content span {
@@ -404,19 +404,6 @@ sup {
   text-decoration: none;
 }
 
-.list li a {
-  font-size: 26px;
-  color: #006fc6;
-  line-height: 1.5;
-}
-
-.news h2 a {
-  font-size: 40px;
-  color: white;
-  text-decoration: none;
-  border-bottom: 3px solid rgb(199, 194, 194);
-}
-
 .subscribe a {
   font-size: 20px;
   text-decoration: none;
@@ -430,6 +417,19 @@ sup {
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid rgb(175, 167, 167);
+}
+
+.list li a {
+  font-size: 26px;
+  color: #006fc6;
+  line-height: 1.5;
+}
+
+.news h2 a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(199, 194, 194);
 }
 
 .article-one a:hover {
