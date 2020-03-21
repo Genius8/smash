@@ -4,7 +4,7 @@
   grid-column-gap: 30px;
   background: #d33a2c;
   padding: 20px;
-  font-family: Calibri Bold, AvenirNext, Avenir,-apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: #fff;
   text-align: center;
 }
@@ -18,9 +18,20 @@
 }
 
 .nav-item img {
-  width: 39px; 
+  width: 39px;
   height: 44px;
   transform: scale(1) rotateZ(calc(20 * -1deg));
+}
+
+.first-section img {
+  width: 75px;
+  height: 75px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.author-info img {
+  transform: scale(1) rotateZ(calc(12 * -1deg));
 }
 
 .nav-item img:hover {
@@ -45,7 +56,7 @@
   height: 50px;
   border: 3px solid white;
   border-radius: 10px;
-  padding: 8px 16px; 
+  padding: 8px 16px;
   margin-top: 40px;
 }
 
@@ -68,7 +79,27 @@
   grid-template-columns: repeat(2, 1fr);
   color: white;
   line-height: 30px;
-  font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+.article-one span {
+  color: #666;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+.article-two span {
+  color: #666;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+.smashing-paragraph a {
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: 3px solid rgb(202, 179, 179);
 }
 
 .seriously {
@@ -110,13 +141,6 @@
   transform-origin: bottom;
 }
 
-.first-section img {
-  width: 75px;
-  height: 75px;
-  border: 5px solid white;
-  border-radius: 10px;
-}
-
 .first-section h2 {
   font-size: 40px;
   line-height: 40px;
@@ -133,7 +157,7 @@
 }
 
 .author2 {
-  background-color: #b91b0d; 
+  background-color: #b91b0d;
   padding: 50px 30px;
 }
 
@@ -152,22 +176,16 @@
   justify-content: flex-start;
 }
 
-.author-info img {
-  transform: scale(1) rotateZ(calc(12 * -1deg));
-}
-
 .author-info img:hover {
   transform: scale(1) rotate(10deg);
   transition: transform 0.3s ease-out;
   transform-origin: bottom;
 }
 
-
 .name {
   padding-top: 20px;
   padding-left: 30px;
 }
-
 
 .author-info h3 {
   font-size: 20px;
@@ -256,7 +274,7 @@ sup {
 }
 
 .article-one h3 {
-  font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: AvenirNext,  Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: #666;
   display: block;
   margin-bottom: 7px;
@@ -265,7 +283,7 @@ sup {
 }
 
 .article-one h2 {
-  font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: rgb(12, 12, 12);
   display: block;
   margin-bottom: 7px;
@@ -278,11 +296,9 @@ sup {
   color: rgb(211, 24, 24);
 }
 
-.article-one span {
-  color: #666;
-  font-weight: 700;
-  font-size: 16px;
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+.button a {
+  text-decoration: none;
+  color: #267dcc;
 }
 
 .article-one a {
@@ -313,7 +329,7 @@ sup {
 }
 
 .article-two h3 {
-  font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: #666;
   display: block;
   margin-bottom: 7px;
@@ -322,7 +338,7 @@ sup {
 }
 
 .smashing-h2 {
-  font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   color: rgb(12, 12, 12);
   display: block;
   margin-bottom: 7px;
@@ -333,13 +349,6 @@ sup {
 
 .smashing-h2:hover {
   color: rgb(211, 24, 24);
-}
-
-.article-two span {
-  color: #666;
-  font-weight: 700;
-  font-size: 16px;
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
 .article-author {
@@ -408,12 +417,6 @@ sup {
   padding: 40px 0;
 }
 
-.smashing-paragraph a {
-  text-decoration: none;
-  color: whitesmoke;
-  border-bottom: 3px solid rgb(202, 179, 179);
-}
-
 .button {
   background-color: white;
   height: 50px;
@@ -422,11 +425,6 @@ sup {
   font-size: 20px;
   font-weight: bold;
   padding-top: 12px;
-}
-
-.button a {
-  text-decoration: none;
-  color: #267dcc;
 }
 
 .button a:hover {
@@ -666,7 +664,7 @@ sup {
   font-size: 18px;
   line-height: 1.5;
   color: #666;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 .course-link2 {
@@ -724,14 +722,14 @@ sup {
 }
 
 .table-content img {
-  width: 256px; 
+  width: 256px;
   height: 373px;
   transform: scale(1) rotateZ(calc(12 * -1deg));
 }
 
 .table-content img:hover {
   transform: scale(1) rotate(1deg);
-  transition: transform .4s ease-out;
+  transition: transform 0.4s ease-out;
   transform-origin: bottom;
 }
 
@@ -839,7 +837,6 @@ form span {
 .sub-small {
   color: #fff;
   text-align: center;
-  text-align: center;
   line-height: 1.2;
   margin-top: 35px;
 }
@@ -851,7 +848,7 @@ form span {
 }
 
 footer {
-  background-color: #D33a2c;
+  background-color: #d33a2c;
   text-align: center;
   color: white;
 }
