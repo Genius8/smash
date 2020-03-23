@@ -63,10 +63,6 @@ form span {
   color: rgb(36, 35, 35);
 }
 
-.nav-bar span {
-  font-weight: bold;
-}
-
 .nav-bar small {
   font-size: 13px;
   font-weight: lighter;
@@ -103,7 +99,6 @@ form span {
   line-height: 30px;
 }
 
-.article-one span,
 .article-two span,
 .article-three span {
   font-size: 16px;
@@ -143,11 +138,6 @@ footer a {
   padding: 2% 2% 2% 6%;
 }
 
-.table-content span {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 .content-paragraph span {
   color: white;
   text-transform: lowercase;
@@ -155,10 +145,6 @@ footer a {
 
 .subscribe span {
   display: inline;
-}
-
-.nav-bar span {
-  font-size: 22px;
 }
 
 footer p,
@@ -170,10 +156,7 @@ footer p,
 
 .nav-bar,
 .author-text,
-.article-one span,
 .first-section,
-.article-two span,
-.article-three span,
 .topics,
 .article-one h3,
 .article-one h2,
@@ -192,6 +175,36 @@ footer p,
 .smashing-paragraph,
 .subscribe a {
   font-size: 20px;
+}
+
+.nav-bar span {
+  font-weight: bold;
+}
+
+.article-one span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.article-one span,
+.article-two span,
+.article-three span {
+  color: #666;
+}
+
+.nav-bar span {
+  font-size: 22px;
+}
+
+.article-one span,
+.article-two span,
+.article-three span {
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+.table-content span {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .seriously span:hover {
@@ -352,6 +365,12 @@ sup {
   font-weight: 600;
 }
 
+.curated h2 {
+  font-size: 27px;
+  color: rgb(36, 35, 35);
+  padding-bottom: 15px;
+}
+
 .article-one h2 {
   color: rgb(12, 12, 12);
   font-size: 24px;
@@ -362,12 +381,6 @@ sup {
 .article-one h2 {
   display: block;
   margin-bottom: 7px;
-}
-
-.curated h2 {
-  font-size: 27px;
-  color: rgb(36, 35, 35);
-  padding-bottom: 15px;
 }
 
 .article-one h2:hover {
@@ -413,22 +426,8 @@ sup {
   text-decoration: none;
 }
 
-.sub-small a {
-  text-decoration: none;
-  border-bottom: 1px solid rgb(175, 167, 167);
-}
-
-.smashing-h2 a {
-  color: rgb(49, 48, 48);
-}
-
-.article-paragraph a {
-  text-decoration: none;
-}
-
 .person-week p,
-.days,
-.article-paragraph a {
+.days {
   color: #333;
 }
 
@@ -441,9 +440,7 @@ sup {
 .author-span a,
 .article-one a,
 .article-one h3,
-.article-three span,
-.article-one span,
-.article-two span {
+.article-one span {
   color: #666;
 }
 
@@ -463,6 +460,27 @@ sup {
 .sub-small a,
 .nav-bar {
   color: #fff;
+}
+
+.article-paragraph a {
+  text-decoration: none;
+}
+
+.article-paragraph a {
+  color: #333;
+}
+
+.sub-small a {
+  text-decoration: none;
+  border-bottom: 1px solid rgb(175, 167, 167);
+}
+
+.subscribe a:hover {
+  color: rgb(175, 8, 8);
+}
+
+.table-content-btn a:hover {
+  color: rgb(156, 9, 9);
 }
 
 .list li a {
@@ -511,6 +529,10 @@ footer p {
   font-size: 24px;
   font-weight: 800;
   text-decoration: underline;
+}
+
+.smashing-h2 a {
+  color: rgb(49, 48, 48);
 }
 
 .smashing-h2:hover {
@@ -787,10 +809,6 @@ footer p {
   padding: 10px 0 0 40px;
 }
 
-.table-content-btn a:hover {
-  color: rgb(156, 9, 9);
-}
-
 .table-content img:hover {
   transform: scale(1) rotate(1deg);
   transition: transform 0.4s ease-out;
@@ -840,10 +858,6 @@ footer p {
   height: 60px;
   border-radius: 10px;
   padding: 18px 0 0 15px;
-}
-
-.subscribe a:hover {
-  color: rgb(175, 8, 8);
 }
 
 .subscribe-btn {
