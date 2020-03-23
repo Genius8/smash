@@ -141,7 +141,6 @@ footer a {
   display: inline;
 }
 
-.author-text p,
 .author-span,
 .seriously span {
   font-size: 18px;
@@ -412,7 +411,6 @@ sup {
   color: #333;
 }
 
-.author-text p,
 .author-span,
 .person-week h4,
 .article-three h3,
@@ -757,8 +755,10 @@ footer p {
 }
 
 .author-text p {
+  font-weight: 18px;
   line-height: 1.5;
   margin-top: 15px;
+  color: #666;
 }
 
 .course-link2 {
