@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Genius8/smash/e8d0013915a7a07fdabfbb9834790f7f17197379/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Genius8/smash/c5112bcc2b3728de0e7fd85701141d0628d9ddac/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
