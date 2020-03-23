@@ -407,6 +407,7 @@ sup {
 
 .days {
   color: #333;
+  text-decoration: none;
 }
 
 .author-span,
@@ -501,10 +502,6 @@ sup {
 
 .article-author:hover {
   color: black;
-}
-
-.days {
-  text-decoration: none;
 }
 
 .arrows {
