@@ -160,7 +160,6 @@ footer a {
   font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
 }
 
-.news p,
 .button,
 .article-one p,
 .table-content span,
@@ -751,6 +750,10 @@ sup {
 footer p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.news p {
+  font-size: 20px;
 }
 
 .author-text p {
