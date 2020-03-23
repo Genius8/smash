@@ -450,6 +450,10 @@ sup {
   border-bottom: 1px solid rgb(175, 167, 167);
 }
 
+.smashing-h2 a {
+  color: rgb(49, 48, 48);
+}
+
 .list li a {
   font-size: 26px;
   color: #006fc6;
@@ -461,10 +465,6 @@ sup {
   color: white;
   text-decoration: none;
   border-bottom: 3px solid srgb(199, 194, 194);
-}
-
-.smashing-h2 a {
-  color: rgb(49, 48, 48);
 }
 
 .subscribe a:hover {
