@@ -405,7 +405,6 @@ sup {
   text-decoration: none;
 }
 
-.person-week p,
 .days {
   color: #333;
 }
@@ -634,13 +633,6 @@ sup {
   font-weight: bold;
 }
 
-.shipping-paragraph p {
-  text-align: center;
-  font-size: x-large;
-  line-height: 1.2;
-  margin-top: 45px;
-}
-
 .shipping-text {
   text-align: center;
   padding: 5% 0;
@@ -698,11 +690,6 @@ sup {
   font-size: 22px;
 }
 
-.person-week p {
-  font-size: 17px;
-  line-height: 2;
-}
-
 .link-authors {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -742,6 +729,19 @@ sup {
 footer p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.person-week p {
+  font-size: 17px;
+  line-height: 2;
+  color: #333;
+}
+
+.shipping-paragraph p {
+  text-align: center;
+  font-size: x-large;
+  line-height: 1.2;
+  margin-top: 45px;
 }
 
 .article-one p {
