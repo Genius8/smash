@@ -157,6 +157,43 @@ footer a {
   display: inline;
 }
 
+.nav-bar span {
+  font-size: 22px;
+}
+
+footer p,
+.author-text p,
+.author-span,
+.seriously span {
+  font-size: 18px;
+}
+
+.nav-bar,
+.author-text,
+.article-one span,
+.first-section,
+.article-two span,
+.article-three span,
+.topics,
+.article-one h3,
+.article-one h2,
+.article-two h3,
+.smashing-h2,
+.article-three h3,
+.person-week {
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+.news p,
+.button,
+.article-one p,
+.table-content span,
+.author-info h3,
+.smashing-paragraph,
+.subscribe a {
+  font-size: 20px;
+}
+
 .seriously span:hover {
   background-color: white;
   color: rgb(172, 5, 5);
@@ -376,14 +413,6 @@ sup {
   text-decoration: none;
 }
 
-.subscribe a {
-  text-decoration: none;
-  color: #006fc6;
-  font-weight: bold;
-  border-left: 1px solid grey;
-  padding-left: 20px;
-}
-
 .sub-small a {
   text-decoration: none;
   border-bottom: 1px solid rgb(175, 167, 167);
@@ -395,6 +424,45 @@ sup {
 
 .article-paragraph a {
   text-decoration: none;
+}
+
+.person-week p,
+.days,
+.article-paragraph a {
+  color: #333;
+}
+
+.author-text p,
+.author-span,
+.person-week h4,
+.article-three h3,
+.article-author,
+.article-two h3,
+.author-span a,
+.article-one a,
+.article-one h3,
+.article-three span,
+.article-one span,
+.article-two span {
+  color: #666;
+}
+
+.table-content-btn a {
+  font-size: 20px;
+}
+
+.subscribe a {
+  text-decoration: none;
+  color: #006fc6;
+  font-weight: bold;
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
+
+.sub-small,
+.sub-small a,
+.nav-bar {
+  color: #fff;
 }
 
 .list li a {
@@ -643,7 +711,6 @@ footer p {
 
 .person-week h4,
 .shipping-btn,
-.nav-bar span,
 .article-paragraph {
   font-size: 22px;
 }
@@ -651,12 +718,6 @@ footer p {
 .person-week p {
   font-size: 17px;
   line-height: 2;
-}
-
-.person-week p,
-.days,
-.article-paragraph a {
-  color: #333;
 }
 
 .link-authors {
@@ -680,22 +741,6 @@ footer p {
   margin-left: 50px;
 }
 
-.nav-bar,
-.author-text,
-.article-one span,
-.first-section,
-.article-two span,
-.article-three span,
-.topics,
-.article-one h3,
-.article-one h2,
-.article-two h3,
-.smashing-h2,
-.article-three h3,
-.person-week {
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
-}
-
 .author-span {
   font-weight: 700;
 }
@@ -714,28 +759,6 @@ footer p {
 .author-text p {
   line-height: 1.5;
   margin-top: 15px;
-}
-
-footer p,
-.author-text p,
-.author-span,
-.seriously span {
-  font-size: 18px;
-}
-
-.author-text p,
-.author-span,
-.person-week h4,
-.article-three h3,
-.article-author,
-.article-two h3,
-.author-span a,
-.article-one a,
-.article-one h3,
-.article-three span,
-.article-one span,
-.article-two span {
-  color: #666;
 }
 
 .course-link2 {
@@ -809,17 +832,6 @@ footer p,
   line-height: 2;
 }
 
-.news p,
-.button,
-.article-one p,
-.table-content span,
-.author-info h3,
-.smashing-paragraph,
-.table-content-btn a,
-.subscribe a {
-  font-size: 20px;
-}
-
 .subscribe {
   display: flex;
   background-color: white;
@@ -847,12 +859,6 @@ footer p,
   text-align: center;
   line-height: 1.2;
   margin-top: 35px;
-}
-
-.sub-small,
-.sub-small a,
-.nav-bar {
-  color: #fff;
 }
 
 footer {
