@@ -99,12 +99,6 @@ form span {
   line-height: 30px;
 }
 
-.article-two span,
-.article-three span {
-  font-size: 16px;
-  font-weight: 700;
-}
-
 footer a {
   color: white;
 }
@@ -181,25 +175,13 @@ footer p,
   font-weight: bold;
 }
 
-.article-one span {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.article-one span,
-.article-two span,
-.article-three span {
-  color: #666;
-}
-
-.nav-bar span {
-  font-size: 22px;
-}
-
 .article-one span,
 .article-two span,
 .article-three span {
   font-family: Calibri Bold, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+  color: #666;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .table-content span {
@@ -421,6 +403,7 @@ sup {
 }
 
 .table-content-btn a {
+  font-size: 20px;
   color: #267dcc;
   font-weight: bold;
   text-decoration: none;
@@ -439,13 +422,8 @@ sup {
 .article-two h3,
 .author-span a,
 .article-one a,
-.article-one h3,
-.article-one span {
+.article-one h3 {
   color: #666;
-}
-
-.table-content-btn a {
-  font-size: 20px;
 }
 
 .subscribe a {
@@ -463,24 +441,13 @@ sup {
 }
 
 .article-paragraph a {
-  text-decoration: none;
-}
-
-.article-paragraph a {
   color: #333;
+  text-decoration: none;
 }
 
 .sub-small a {
   text-decoration: none;
   border-bottom: 1px solid rgb(175, 167, 167);
-}
-
-.subscribe a:hover {
-  color: rgb(175, 8, 8);
-}
-
-.table-content-btn a:hover {
-  color: rgb(156, 9, 9);
 }
 
 .list li a {
@@ -496,12 +463,20 @@ sup {
   border-bottom: 3px solid srgb(199, 194, 194);
 }
 
-.article-topics:hover {
-  color: rgb(151, 13, 13);
+.smashing-h2 a {
+  color: rgb(49, 48, 48);
 }
 
-footer p {
-  line-height: 1.5;
+.subscribe a:hover {
+  color: rgb(175, 8, 8);
+}
+
+.table-content-btn a:hover {
+  color: rgb(156, 9, 9);
+}
+
+.article-topics:hover {
+  color: rgb(151, 13, 13);
 }
 
 .article-one p {
@@ -529,10 +504,6 @@ footer p {
   font-size: 24px;
   font-weight: 800;
   text-decoration: underline;
-}
-
-.smashing-h2 a {
-  color: rgb(49, 48, 48);
 }
 
 .smashing-h2:hover {
@@ -776,6 +747,10 @@ footer p {
 
 .course-link:hover {
   color: rgb(163, 7, 7);
+}
+
+footer p {
+  line-height: 1.5;
 }
 
 .author-text p {
