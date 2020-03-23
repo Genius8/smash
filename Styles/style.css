@@ -141,7 +141,6 @@ footer a {
   display: inline;
 }
 
-footer p,
 .author-text p,
 .author-span,
 .seriously span {
@@ -750,6 +749,7 @@ sup {
 }
 
 footer p {
+  font-size: 18px;
   line-height: 1.5;
 }
 
