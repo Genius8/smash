@@ -34,10 +34,11 @@
 ## Authors
 
 ### Author 1
-
+👤 Odufu James C.
 - Github: [@githubhandle](https://github.com/jamezjaz)
 - Twitter: [@twitterhandle](https://twitter.com/jamezjaz90)
 - Linkedin: [@linkedin](https://linkedin.com/in/james-odufu-ba2a4a125)
+- [![Is <jamezjaz> available for hire?](http://hireable.me/<jamezjaz>)](http://hireable.me/p/<jamezjaz>)
 
 ### Author 2
 - Github: [@githubhandle](https://github.com/Genius8)
